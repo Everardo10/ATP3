@@ -1,0 +1,17 @@
+public class Retangulo extends Quadrilateros {
+    public Retangulo (double a, double b){
+         super(a, b, 0.0, 0.0);
+    }
+    public double getA(){
+        return super.getA();
+    }
+    public double getB(){
+        return super.getB();
+    }
+    public double area() {
+        return getA()*getB();
+    }    
+    public double perimetro(){
+        return 2*(getA()+getB());
+    }
+}
